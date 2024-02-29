@@ -6,10 +6,12 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.example.horosapp2.R
-import com.example.horosapp2.databinding.FragmentLuckBinding
 import com.example.horosapp2.databinding.FragmentPalmistryBinding
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class PalmistryFragment : Fragment() {
+
 
 
     private var _binding: FragmentPalmistryBinding?=null
